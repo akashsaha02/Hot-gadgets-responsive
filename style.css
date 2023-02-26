@@ -5,7 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 .bgg {
     background-image: url(images/bg-2.png);
     background-repeat: no-repeat;
@@ -76,22 +75,13 @@ hr {
 
 }
 
-.left2 {
-    width: 40%;
-    float: left;
-    /* margin: px; */
-}
-
-.right1 {
-    width: 40%;
-    float: right;
-    /* margin: 10px; */
-}
-
 .beauty {
+    flex-direction: column;
+}
+
+.align-last {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
 }
 
